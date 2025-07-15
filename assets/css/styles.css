@@ -1,0 +1,184 @@
+
+.links{
+    
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    margin-left: auto;
+    font-weight: 400;
+    
+    
+}
+a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: purple;
+}
+a:hover{
+    color: rgb(9, 41, 222);
+    font-size: larger;
+    text-decoration: underline;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    border: 3px solid purple;
+    object-fit: cover;
+    
+}
+#name{
+    text-decoration: none;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: purple;
+    font-weight:lighter;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+body{
+    background-color: antiquewhite;
+}
+#start{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+header{
+    
+    background-color: rgb(225, 154, 154);
+   display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+p::selection{
+    color: red;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Change this per platform if you'd like */
+}
+#myimg{
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    margin: 80px;
+    margin-right: 0px;
+    border: none;
+}
+
+    
+
+#intro{
+    padding-top: 80px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    
+    text-align: justify;
+    padding-right: 80px;
+    
+}
+.arrow{
+    color: green;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.details{
+    text-align: justify;
+}
+.detail{
+    font-size: 2rem;
+}
+.value{
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.hello{
+    display: block;
+    text-align: justify;
+    margin-top: 0px;
+    padding-left: 30px;
+}
+main{
+    display: flex;
+}
+#clglogo{
+    margin-top: 0px;
+    width: 400px;
+    height: 200px;
+    border-radius: 0px;
+}
+.education1{
+    background-color: rgb(33 37 41);
+    margin-top: 20px;
+    border: 3px solid black;
+    width: 405px;
+    color: white;
+}
+#edu{
+    display: flex;
+    padding: auto;
+    gap: 50px;
+    
+}
+.branch{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+ul{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+#branch2{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h3{
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+@media(max-width:400px){
+    #edu{
+        flex-direction: column;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: (3,fr);
+    }
+    #abc{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
