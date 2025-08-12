@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home split-home">
+        <div class="home-left">
+            <img src="./veeresh.jpeg" alt="Profile Picture" class="profile-pic" />
+        </div>
+        <div class="home-right">
+            <h1>Hi, I'm <span id="typed-text"></span></h1>
+            <p>Computer Science Engineering Student</p>
+            <p>A third-year undergraduate engineering student at Mallareddy Engineering College, Hyderabad.</p>
+            <div class="social-icons">
+                <a href="https://github.com/adikeveeresh" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adike-divya-teja-veereswara-rao-bb1bb0335/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/veeresh_2205?igsh=MXA4cWM4aGc0bGJrMg==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated front-end developer passionate about crafting clean, responsive, and user-friendly
+            websites. With expertise in HTML, CSS, and JavaScript, I enjoy transforming ideas into engaging digital
+            experiences. Always eager to learn and improve.
+        </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education fade-in">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <span>2023 - 2027</span>
+                    <p>Mallareddy Engineering College</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Intermediate</h3>
+                    <span>2021 - 2023</span>
+                    <p>SriniVasa Junior College</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>SSC</h3>
+                    <span>2020 - 2021</span>
+                    <p>Adarsh High School.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills fade-in">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">C</div>
+            <div class="skill-card">python</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects slide-right">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Hey Doctor</h3>
+                <p>A desktop application for booking and managing doctor appointments, developed using Python's Tkinter
+                    GUI library.</p>
+                <a href="https://github.com/adikeveeresh/doctors-appointment" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Netflix-Clone App</h3>
+                <p>Netflix India Landing Page Clone A visually stunning clone of the Netflix India homepage for
+                    educational purposes.</p>
+                <a href="https://github.com/adikeveeresh/Netflix-clone" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Rock Paper Scissors </h3>
+                <p>The game lets a user play Rock, Paper, Scissors against the computer.First to reach 3 points wins the
+                    match. </p>
+                <a href="https://rock-paper-scissors-brown-eta.vercel.app/" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Tic Tac Toe Game</h3>
+                <p>A simple and interactive Tic Tac Toe game developed with HTML, CSS, and JavaScript allows two players
+                    to play game.</p>
+                <a href="https://tic-tac-toe-eight-ebon-24.vercel.app/" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>My Portfolio</h3>
+                <p>I built my portfolio using HTML, CSS, and JavaScript to create a clean, responsive layout with modern
+                    animations and  features. </p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 A.Divya Teja veereswara Rao. All rights reserved.</p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
